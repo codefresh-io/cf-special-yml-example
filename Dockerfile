@@ -10,4 +10,5 @@ EXPOSE 3000
 
 ENV PORT 3000
 
+RUN echo 'its a test branch'
 CMD [ "npm", "start" ]
